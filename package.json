@@ -1,0 +1,29 @@
+{
+  "name": "crabravebutton",
+  "version": "1.0.0",
+  "description": "A control system able to play crab rave on all added devices, including sonos speakers, other pcs and raspberrypi based control systems",
+  "main": "svr.js",
+  "type": "module",
+  "scripts": {
+    "start": "node . ",
+    "lint": "eslint .",
+    "lintfix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Felixim0/crabRaveButton.git"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-portsoc": "^0.8.2"
+  },
+  "author": "Felix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Felixim0/crabRaveButton/issues"
+  },
+  "homepage": "https://github.com/Felixim0/crabRaveButton#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
